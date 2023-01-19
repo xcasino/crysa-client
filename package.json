@@ -1,19 +1,31 @@
 {
   "name": "crysa-client",
+  "productName": "crysa-client",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My Electron application description",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xcasino/crysa-client.git"
+  "keywords": [],
+  "author": {
+    "name": "Joshua Miller",
+    "email": "5254073+xcasino@users.noreply.github.com"
   },
-  "author": "Joshua Miller (xCasino)",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/xcasino/crysa-client/issues"
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   },
-  "homepage": "https://github.com/xcasino/crysa-client#readme"
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "22.0.3"
+  }
 }
