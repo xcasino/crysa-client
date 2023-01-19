@@ -8,15 +8,14 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "publish": "electron-forge publish"
   },
   "keywords": [],
   "author": {
-    "name": "Joshua Miller",
+    "name": "Joshua Miller (xCasino)",
     "email": "5254073+xcasino@users.noreply.github.com"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
   },
