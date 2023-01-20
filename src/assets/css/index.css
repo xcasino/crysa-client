@@ -1,7 +1,16 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /*background: #252526;*/
+}
+
+#primary-input-group > label {
+  border-radius: 0;
+}
+
+#primary-input {
+  border-radius: 0;
 }

@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
-    <title>Crysa: A Hero Awaits</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./assets/packages/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <title>Crysa: A Hero Awaits</title>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+
+    <div class="input-group" id="primary-input-group">
+      <label class="input-group-text" for="primary-input">Say:</label>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Yell</a></li>
+        <li><a class="dropdown-item" href="#">Whisper</a></li>
+        <li><a class="dropdown-item" href="#">Guild</a></li>
+        <li><a class="dropdown-item" href="#">Party</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Help</a></li>
+      </ul>
+      <input type="text" class="form-control" id="primary-input" aria-label="Text input with segmented dropdown button">
+    </div>
+
     <script src="./assets/packages/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
